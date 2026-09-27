@@ -2,7 +2,8 @@
   "name": "automation",
   "version": "1.0.0",
   "main": "index.js",
-  "scripts": {},
+  "scripts": {
+    "test:registration": "npx playwright test src/tests/RegisterationPage.spec.ts  --project='chromium'"},
   "keywords": [],
   "author": "",
   "license": "ISC",
